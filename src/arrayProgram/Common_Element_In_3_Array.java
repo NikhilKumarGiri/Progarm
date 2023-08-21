@@ -8,6 +8,7 @@ import java.util.List;
 public class Common_Element_In_3_Array {
 
 	public static void main(String[] args) {
+		//kih
 		// TODO Auto-generated method stub
 		Integer arr1[]= {1,2,3,4,7,8,9,0};
 		Integer arr2[]= {7,8,9,10,11,12};
