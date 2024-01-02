@@ -13,7 +13,7 @@ public class Duplicate_string_usinghashset {
 		{
 			if(l.add(s)==false)
 			{
-				System.out.println("Duplicated are " +s);
+				System.out.println("Duplicated are :" +s);
 				flag=true;
 			}
 		}

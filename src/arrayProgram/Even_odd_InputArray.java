@@ -18,10 +18,10 @@ public class Even_odd_InputArray {
 		{
 			if(arr[i]%2==0)
 			{
-				System.out.println("Even numbers are" +arr[i]);
+				System.out.println("Even numbers are :" +arr[i]);
 			}
 			else {
-				System.out.println("odd numbers are" +arr[i]);
+				System.out.println("Odd numbers are :" +arr[i]);
 	
 			}
 		}
