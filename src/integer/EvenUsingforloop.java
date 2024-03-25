@@ -10,7 +10,6 @@ public class EvenUsingforloop {
 	}
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		onlyeventill(20);
 
 	}

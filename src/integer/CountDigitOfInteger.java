@@ -15,6 +15,6 @@ public class CountDigitOfInteger {
 		
 	}
 	public static void main(String[] args) {
-		System.out.println(CountDigitOfInteger.countDigit(143122));
+		System.out.println(CountDigitOfInteger.countDigit(143122 ));
 	}
 }

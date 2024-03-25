@@ -1,4 +1,4 @@
-package string_arrayDemo;
+package stringProgram;
 
 public class Duplicate_In_Array {
 
@@ -9,7 +9,7 @@ public class Duplicate_In_Array {
 			for (int j = i + 1; j < arr.length; j++) {
 				
 				if (arr[i].equalsIgnoreCase(arr[j]) ) {
-					System.out.println("Duplicate element is " + arr[i]);
+					System.out.println("Duplicate element is :" + arr[i]);
 					flag = true;
 				}
 

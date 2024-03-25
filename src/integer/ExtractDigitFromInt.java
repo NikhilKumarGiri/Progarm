@@ -1,4 +1,4 @@
-package integer;
+ package integer;
 
 public class ExtractDigitFromInt {
 	static void extract(int num)

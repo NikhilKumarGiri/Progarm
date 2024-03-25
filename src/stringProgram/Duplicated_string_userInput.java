@@ -1,4 +1,4 @@
-package string_arrayDemo;
+package stringProgram;
 
 import java.util.Scanner;
 
@@ -8,6 +8,7 @@ public class Duplicated_string_userInput {
 		Scanner sc =new Scanner(System.in);
 		System.out.println("Enter the size of the array");
 		int size=sc.nextInt();
+		sc.close();
 		String arr[]= new String[size];
 		for(int i=0;i<size;i++)
 		{

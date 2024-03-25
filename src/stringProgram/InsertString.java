@@ -4,6 +4,7 @@ public class InsertString {
 	static String insertString(String original,int indexno,String toBeInserted)
 	{
 		String firstststring=original.substring(0, indexno+1);
+		//System.out.println(firstststring);
 		String finalstring=firstststring+" "+toBeInserted+" " +original.substring(indexno+1);
 		//System.out.println(finalstring);
 		return finalstring;

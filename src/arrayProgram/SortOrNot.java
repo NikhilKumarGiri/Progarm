@@ -3,9 +3,9 @@ package arrayProgram;
 public class SortOrNot {
 
 	static boolean isSort(int a[]) {
-		for(int i=1;i<a.length;i++)
+		for(int i=0;i<a.length-1;i++)
 		{
-			if(a[i]<a[i-1]) {
+			if(a[i]>a[i+1]) {
 				return false;
 			}
 		}
@@ -14,7 +14,7 @@ public class SortOrNot {
 		}
 
 	public static void main(String args[]) {
-		int a[] = { 98,1, 4, 6, 8,9 };
+		int a[] = { 0,1, 4, 6, 8,9 };
 		System.out.println(isSort(a));
 	}
 

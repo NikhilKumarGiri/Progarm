@@ -1,12 +1,11 @@
-package string_arrayDemo;
+package stringProgram;
 
 import java.util.HashMap;
 
 public class Frequency_Of_Word_Sentense {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		String sentense="java is a program languagae a";
+ 		String sentense="java is a program languagae a a";
 		String words[]=sentense.split(" ");
 		HashMap<String, Integer> value=new HashMap<>();
 		for(String word:words)

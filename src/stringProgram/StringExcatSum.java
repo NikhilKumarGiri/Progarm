@@ -6,14 +6,14 @@ public class StringExcatSum {
 		String b = s.replaceAll("[$]", "");
 		System.out.println(b);
 		int h = Integer.parseInt(b);
-		int sum = 0, digit;
+		int sum = 0, rem;
 		while (h > 0) {
-			digit = h % 10;
-			sum = sum + digit;
+			rem = h % 10;
+			sum = sum + rem;
 			h = h / 10;
-			System.out.println(h);
+			//System.out.println(h);
 		}
-		//System.out.println(sum);
+		System.out.println(sum);
 	}
 
 	public static void main(String args[]) {

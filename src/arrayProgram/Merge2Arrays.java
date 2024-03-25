@@ -17,6 +17,8 @@ public class Merge2Arrays {
 		}
 		//directly array element can not be print so converting to string
 		System.out.println(Arrays.toString(n3));
+		Arrays.sort(n3);
+		System.out.println("After sorting--"+Arrays.toString(n3));
 	}
 
 	public static void main(String[] args) {

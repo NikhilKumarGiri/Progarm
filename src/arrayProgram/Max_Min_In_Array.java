@@ -12,7 +12,7 @@ public class Max_Min_In_Array {
 			{
 				min=arr[i];
 			}
-			else if(arr[i]>max)
+			if(arr[i]>max)
 			{
 				max=arr[i];
 			}

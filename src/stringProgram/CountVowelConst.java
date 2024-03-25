@@ -5,7 +5,7 @@ public class CountVowelConst {
 	int vcount=0;
 	int ccount=0;
 	String s="my name is singh";
-	String m=s.replaceAll("\s", "");
+	String m=s.replaceAll("[\s]", "");
 	String d=m.toLowerCase();
 	for(int i=0;i<d.length();i++)
 	{
@@ -19,8 +19,8 @@ public class CountVowelConst {
 			ccount++;
 		}
 	}
-	System.out.println(vcount);
-	System.out.println(ccount);
+	System.out.println("Vowel count is--"+vcount);
+	System.out.println("Consonant count is--"+ccount);
 	}
 
 }

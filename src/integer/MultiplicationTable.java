@@ -11,6 +11,6 @@ static void table(int num)
 	}
 }
 public static void main(String[] args) {
-	table(3);
+	table(19);
 }
 }

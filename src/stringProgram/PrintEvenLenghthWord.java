@@ -1,17 +1,14 @@
 package stringProgram;
 
 public class PrintEvenLenghthWord {
-	static void extractStringByEvenorder(String s)
-	{
+	static void extractStringByEvenorder(String s) {
 
-		String [] a=s.split(" ");
-		for(int i=0;i<=a.length-1;i++)
-		{
-			//int wordlen=a[i].length();
-			if(a[i].length()%2==0)
-			{
-			
-		System.out.print(a[i]+" ");
+		String[] a = s.split(" ");
+		for (int i = 0; i < a.length; i++) {
+			// int wordlen=a[i].length();
+			if (a[i].length() % 2 == 0) {
+
+				System.out.print(a[i] + " ");
 			}
 		}
 

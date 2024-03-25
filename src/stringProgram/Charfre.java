@@ -10,9 +10,9 @@ public class Charfre {
 			char c = s.charAt(i);
 
 			if (charfrq.containsKey(c)) {
- 				int count = charfrq.get(c);
+				//int count = charfrq.get(c);
 
-				charfrq.put(c, ++count);
+				charfrq.put(c, charfrq.get(c)+1);
 			} else {
 				charfrq.put(c, 1);
 			}

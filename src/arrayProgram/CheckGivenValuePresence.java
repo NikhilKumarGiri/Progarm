@@ -20,7 +20,7 @@ public class CheckGivenValuePresence {
 
 	public static void main(String[] args) {
 		int[] a = { 1, 2, 3, 6, 9 };
-		presence(a, 9);
+		presence(a, 99);
 	}
 
 }

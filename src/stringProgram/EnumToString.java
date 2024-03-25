@@ -1,4 +1,4 @@
-package stringProgram;
+ package stringProgram;
 //use to declare some set of data
 
 //enum are constant

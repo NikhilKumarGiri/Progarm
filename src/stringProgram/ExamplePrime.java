@@ -4,18 +4,18 @@ public class ExamplePrime {
 
 
 	public static void isprime(int num) {
-		boolean prime = true;
+		boolean prime = false;
 
 
 		for (int i = 2; i < num; i++) {
 
 			if (num % i == 0) {
-				prime = false;
+				prime = true;
 				break;
 			}
 		}
 
-		if (prime) {
+		if (!prime) {
 			System.out.println("Given number is a prime number");
 		} else {
 			System.out.println("Given number is not prime");
@@ -25,7 +25,7 @@ public class ExamplePrime {
 	}
 
 	public static void main(String[] args) {
-		isprime(4);
+		isprime(3);
 	}
 
 }
