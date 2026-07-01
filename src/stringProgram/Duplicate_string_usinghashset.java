@@ -6,7 +6,7 @@ public class Duplicate_string_usinghashset {
 
 	public static void main(String[] args) {
 		boolean flag=false;
-		String arr[]= {"java","c","c++"};
+		String arr[]= {"java","c","c++","c"};
 		HashSet<String> l= new HashSet<>();
 		//storing the value of array in to string variable
 		//for(String s: arr)

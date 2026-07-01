@@ -17,7 +17,7 @@ public class Duplicate_In_Array {
 		}
 		if (flag == false)
 			System.out.println("No duplicated element found");
-
+		
 	}
 
 }

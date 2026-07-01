@@ -1,4 +1,4 @@
-package stringProgram;
+		package stringProgram;
 
 import java.util.Arrays;
 
@@ -29,7 +29,7 @@ public class Anagram_BothStringhavesamechar {
 	}
 
 	public static void main(String[] args) {
-		Anagram("Hello", "0Lohe");
+		Anagram("Hello", "ehLLo");
 	}
 
 }

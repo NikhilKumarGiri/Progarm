@@ -5,7 +5,7 @@ public class EvenUsingforloop {
 	{
 		for(int i=0;i<=digit;i+=2)
 		{
-		System.out.println(i);
+		System.out.print(i+" ");
 		}
 	}
 

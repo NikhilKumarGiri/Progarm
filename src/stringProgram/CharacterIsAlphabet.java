@@ -14,7 +14,7 @@ public class CharacterIsAlphabet {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		System.out.println(isAlphabet('0'));
+		System.out.println(isAlphabet('o'));
 	}
 
 }
