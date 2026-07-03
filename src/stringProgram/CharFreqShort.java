@@ -9,14 +9,14 @@ public class CharFreqShort {
 		Map<Character,Integer>mp=new HashMap<>();
 		for(char c:s.toCharArray())
 		{
-			mp.put(c,mp.getOrDefault(mp, 0)+ 1);
+			mp.put(c,mp.getOrDefault(c, 0)+ 1);
 		}
 		System.out.println(mp);
 	}
 	
 	public static void main(String[] args) {
 
-		frequency("naghjs");
+		frequency("naghjsa");
 	}
 
 }
