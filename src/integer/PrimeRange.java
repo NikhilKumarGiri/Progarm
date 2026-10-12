@@ -4,7 +4,7 @@ public class PrimeRange {
 
 	public static void main(String[] args) {
 		int start = 1;
-		int end = 100;			
+		int end = 100;
 
 		for (int i = start; i <= end; i++) {
 			int count = 0;

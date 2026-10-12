@@ -3,7 +3,7 @@ package stream;
 import java.util.Arrays;
 import java.util.List;
 
-public class Example {
+public class PrintStartletterString {
 
 	public static void main(String[] args) {
 		List<String> name=Arrays.asList("Bob","Alice","alaka");

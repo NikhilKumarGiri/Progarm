@@ -3,7 +3,7 @@ package stringProgram;
 public class StringExcatSum {
 
 	static void sum(String s) {
-		String b = s.replaceAll("[$]", "");
+		String b = s.replaceAll("[^\\d]", "");
 		System.out.println(b);
 		int h = Integer.parseInt(b);
 		int sum = 0, rem;

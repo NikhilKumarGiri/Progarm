@@ -19,7 +19,7 @@ public class IsPrime {
 	}
 
 	public static void main(String[] args) {
-		System.out.println(isPrime(9));
+		System.out.println(isPrime(3));
 	}
 
 }

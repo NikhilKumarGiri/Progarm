@@ -18,7 +18,7 @@ public class Duplicate_string_usinghashset {
 				flag=true;
 			}
 		}
-		if(flag==false)
+		if(flag==false)    
 			System.out.println("no duplicate found");
 	}
 

@@ -12,7 +12,7 @@ public class Print1_100_withoutFor {
 		{
 			System.out.println(num);
 			num++;
-			print(1);
+			//print(1);
 			
 		}
 	}

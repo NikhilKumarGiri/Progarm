@@ -1,6 +1,6 @@
 package arrayProgram;
 
-public class BinarySerach {
+public class BinarySearch {
 
 	public static void main(String[] args) {
 		int a[]= {1,3,5,7,8,9,13,20,93,203};

@@ -10,7 +10,7 @@ public class ReverseString {
 		return rev;
 	}
 	public static void main(String args[]) {
-		System.out.println(ReverseString.reverse("Abcd"));
+		System.out.println(reverse("Abcd"));
 
 	}
 
